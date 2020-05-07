@@ -1,7 +1,6 @@
 // src/Title.js
 import './Title.css';
 import logo from './massy logo.png';
-
 import React from 'react'
 
 function Title() {

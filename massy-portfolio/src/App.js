@@ -1,12 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Title from './Title';
+import Home from './Home';
+import Tech from './Tech';
+import About from './About';
+import Video from './Video';
+import {Route} from 'react-router-dom'
+
 
 function App() {
   return (
     <div className="App">
-      <Title />
+      <div className = "App-logo">
+        <Title />
+        </div>
+      <Route exact path="/"component={Home}/>
+    
+      <Route exact path="/tech"component={Tech}/>
+      <Route exact path="/video"component={Video}/>
+      <Route exact path="/about"component={About}/>
+      
     </div>
   );
 }
