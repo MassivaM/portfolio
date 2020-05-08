@@ -1,54 +1,32 @@
 .Home {
     width:100%;
-    height: 100%;
-    
-    
-
+    height:100%;
 }
-
 .tech {
-
     position: absolute;
     width:50%;
     height:78%;
     background-color:black;
     left: 0px;
-    top: 150px;
-    border: 1px solid #E5E5E5;
+    border: 1px solid #E0E0E0;
     box-sizing: border-box;
     display: grid;
-    grid-template-rows:  30% 55% 60% 75%;
-    grid-template-areas: 
-    "header header2 header header"
-    "main main main main"
-    "bottom bottom bottom bottom";
-    align-items: stretch;
+    grid-template-rows:  30% 55%;
     letter-spacing: 1px;
-
-
 }
-.video {
-    width:50%;
-    height:100%;
-    float: left;
-    background-color: green;
-}
+
 
 .title{
     grid-row: 2;
-    /*position: absolute;
-    height: 100%;
-    left: 7%;
-    top: 20%;*/
     font-family: 'Allan', cursive;;
     font-style: normal;
     font-weight: bold;
     font-size: 60px;
     text-align: center;
     color:#F2F2F2; 
-    display: inline;
 }
-.figure{
+.figure
+{
     vertical-align:-10%;
 }
 .enter{
