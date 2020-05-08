@@ -15,7 +15,6 @@ function App() {
         <Title />
         </div>
       <Route exact path="/"component={Home}/>
-    
       <Route exact path="/tech"component={Tech}/>
       <Route exact path="/video"component={Video}/>
       <Route exact path="/about"component={About}/>
