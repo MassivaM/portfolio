@@ -1,0 +1,138 @@
+$text: "Massy Mahamli";
+
+.intro{
+    position: relative;
+
+    .one{
+        position: relative;
+    }
+
+    .soft{
+
+        position: absolute;
+        width: 100%;
+        height: auto;
+        left:0.4em;
+        padding: 0;
+
+        font-family: Staatliches;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 11vw;
+        line-height: 127%;
+        /* or 267px */
+
+        color: rgb(199,196,190);
+        -webkit-text-fill-color: #FFFBF4; /* Will override color (regardless of order) */
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: rgb(199,196,190);
+
+
+        @media only screen and (max-width: 600px) {
+         
+     
+            font-size: 19vw;
+          }
+
+
+            }
+
+            
+    span{
+
+       
+        position: absolute;
+        width: 100%;
+        height: auto;
+        left: 1.73em;
+        top: 0.8em;
+
+        font-family: Scrubby;
+        font-style: italic;
+        font-weight: normal;
+        font-size: 13vw;
+        line-height: 1.1em;
+
+     
+        display: block;
+        
+        color: #FBC531;
+        &::before{
+        content: $text;
+        display: block;
+        width: 100%;
+        position: absolute;
+        left: -0.15em;
+        color: #edf2f4;
+        z-index:1;
+        top: 0.1em;
+        transition: 0.5s ease-in-out;
+        }
+        &::after{
+        @extend span::before;
+        color: #16A085;
+        z-index: 2;
+        top: 0.2em;
+        left: -0.25em;
+
+        transition: 0.5s ease-in-out;
+        }
+        &:hover{
+        &::before, &::after{
+            top: 0;
+            left: 0;
+            transform: scale(1.02);
+            transition: 0.3s ease-in-out;
+        }
+        }
+
+        @media only screen and (max-width: 600px) {
+         
+            left: 0.63em;
+            font-size: 19vw;
+            top: 1.7em;
+          }
+       
+    }
+
+    img{
+        position: absolute;
+        top:45em;
+        left:45em;
+        @media only screen and (max-width: 600px) {
+         
+            left: 2.5em;
+            font-size: 19vw;
+            top: 7em;
+          }
+
+
+    }
+
+    .experience{
+        position: absolute;
+        top: 35em;
+        .title-exp{
+            width: 100%;
+            height: auto;
+            left:10em;
+            padding: 0;
+
+            font-family: Staatliches;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20vw;
+            line-height: 127%;
+            /* or 267px */
+
+            color: rgb(199,196,190);
+            -webkit-text-fill-color: #FFFBF4; /* Will override color (regardless of order) */
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: rgb(199,196,190);
+
+        }
+
+
+    }
+
+}

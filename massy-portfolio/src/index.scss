@@ -5,10 +5,18 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: black;
+
   
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+@font-face {
+  font-family: 'Bebas Neue Book';
+  src: local('Bebas Neue Book'), url(./assets/fonts/BebasNeue-Book.ttf) format('ttf');
+}
+@font-face {
+  font-family: 'Scrubby';
+  src: local('Scrubby'), url(./assets/fonts/scrubby.otf) format('otf');
 }
