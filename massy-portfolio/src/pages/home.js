@@ -11,7 +11,7 @@ import SvgLines from 'react-mt-svg-lines';
 import { ReactSVG } from 'react-svg'
 import kontrolrdarrow from '../assets/images/kontrol-rd-arrow.svg'
 import kontrolrd from '../assets/images/kontrol-rd.svg'
-
+import Involvement from '../components/Involvement.js'
 export default function Home () {
 
   AOS.init({
@@ -53,7 +53,14 @@ export default function Home () {
         <Slider />
         </div>
       </div>
-
+      <div className="container-fluid home">
+        <div className="experience">
+        <h1 className="title-exp" data-aos="zoom-in-down">involvement</h1>
+       
+        <Involvement />
+        </div>
+      </div>
+     
 
       </div>
       </main>

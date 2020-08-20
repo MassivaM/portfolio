@@ -18,14 +18,18 @@
 
         .CheckButton
         {
-            margin-top: 40px;
-            color: white;
-
-            font-size: 20;
-            border: 3px solid white;
-            text-transform: capitalize;
+            
 
             // transition: 200ms;
         }
     }
 }
+#banner {
+    display: block;
+  }
+  
+  .inline-block {
+    display: inline-block;
+    max-width: 20%;
+    margin: 0 2.5%;
+  }
