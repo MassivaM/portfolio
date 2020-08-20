@@ -1,15 +1,13 @@
 $text: "Massy Mahamli";
 
 .intro{
-    position: relative;
+ 
 
-    .one{
-        position: relative;
-    }
+   
 
     .soft{
 
-        position: absolute;
+
         width: 100%;
         height: auto;
         left:0.4em;
@@ -38,7 +36,7 @@ $text: "Massy Mahamli";
             }
 
             
-    span{
+    .massy2{
 
        
         position: absolute;
@@ -69,7 +67,7 @@ $text: "Massy Mahamli";
         transition: 0.5s ease-in-out;
         }
         &::after{
-        @extend span::before;
+        @extend .massy2::before;
         color: #16A085;
         z-index: 2;
         top: 0.2em;
@@ -96,9 +94,9 @@ $text: "Massy Mahamli";
     }
 
     img{
-        position: absolute;
-        top:45em;
-        left:45em;
+ 
+        top:43em;
+        padding-left:45%;
         @media only screen and (max-width: 600px) {
          
             left: 2.5em;
@@ -110,14 +108,16 @@ $text: "Massy Mahamli";
     }
 
     .experience{
-        position: absolute;
-        top: 35em;
+    
+        padding: 0;
+
         .title-exp{
             width: 100%;
             height: auto;
             left:10em;
             padding: 0;
-
+            margin: 0;
+            z-index:-1;
             font-family: Staatliches;
             font-style: normal;
             font-weight: normal;
@@ -131,8 +131,13 @@ $text: "Massy Mahamli";
             -webkit-text-stroke-color: rgb(199,196,190);
 
         }
+        
+        
+
+        
 
 
     }
 
+  
 }
