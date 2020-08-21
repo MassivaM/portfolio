@@ -1,17 +1,23 @@
 import React from  'react';
-import Navigation from '../components/Navigation-home'
-import {BrowserRouter as Router, Switch, Route, Redirect} from 'react-router-dom'
-import PageRenderer from '../page-renderer'
-import arrow from '../assets/images/down-arrow.png'
+
 import AOS from 'aos'
 import 'aos/dist/aos.css';
 import Timeline from '../components/timeline.js'
 import Slider from '../components/Slider.js'
-import SvgLines from 'react-mt-svg-lines';  
-import { ReactSVG } from 'react-svg'
-import kontrolrdarrow from '../assets/images/kontrol-rd-arrow.svg'
-import kontrolrd from '../assets/images/kontrol-rd.svg'
+
 import Involvement from '../components/Involvement.js'
+import { render } from 'react-dom'
+
+import Video from '../components/Video.js'
+const setStyles = (wrapperEl, videoEl, playbackRate) => {
+  wrapperEl.style.marginTop = `calc(180% - ${Math.floor(videoEl.duration) *
+    playbackRate +
+    'px'})`
+  wrapperEl.style.marginBottom = `calc(180% - ${Math.floor(videoEl.duration) *
+    playbackRate +
+    'px'})`
+}
+
 export default function Home () {
 
   AOS.init({
@@ -53,6 +59,7 @@ export default function Home () {
         <Slider />
         </div>
       </div>
+      
       <div className="container-fluid home">
         <div className="experience">
         <h1 className="title-exp" data-aos="zoom-in-down">involvement</h1>
@@ -60,10 +67,20 @@ export default function Home () {
         <Involvement />
         </div>
       </div>
-     
+      <div className="container-fluid home">
+        <div className="experience">
+        <h1 className="title-exp" data-aos="zoom-in-down">VIDEO</h1></div>
+        <Video/>
+       
+ 
 
-      </div>
+        
+        </div>
+      
+
+</div>
       </main>
         
     )
 }
+render(<Home />, document.getElementById('root'))

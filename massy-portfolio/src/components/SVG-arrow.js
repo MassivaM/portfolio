@@ -33,7 +33,7 @@ const List = () => (
   
     <div>
     <Controller>
-          <Scene duration={300} triggerElement='first-container' offset={500}>
+          <Scene duration={1700} triggerElement='first-container' offset={500}>
           {(progress) => (
             <Tween
            

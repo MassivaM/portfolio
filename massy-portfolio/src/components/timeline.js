@@ -38,6 +38,10 @@ import SVG14 from './SVG-jec.js'
 import SVGlink1 from './SVG-rpi-link.js'
 import SVGlink2 from './SVG-storm-link.js'
 import SVGlink3 from './SVG-jec-link.js'
+import SVGlinkrd from './SVG-rd.js'
+import SVGbuglink from './SVG-bug-link'
+import SVGlblink from './SVG-lb-link'
+import SVGexplolink from './SVG-explo-link'
 import jec from '../assets/images/jec.svg'
 
 import HealingOutlinedIcon from '@material-ui/icons/HealingOutlined';
@@ -77,12 +81,14 @@ export default function CustomizedTimeline() {
      
         <TimelineOppositeContent>
      <SVG/>
+     <SVGlinkrd/>
           <Typography variant="outlined"color="textSecondary">
           <SVG2/>
+          
           2020 
           <SVG3/>
           <SVG4/>
-            
+          <SVGbuglink/>
           </Typography>
         </TimelineOppositeContent>
       
@@ -113,7 +119,7 @@ June 2020-Today</Typography>
         <TimelineOppositeContent>
 
           <Typography variant="outlined" color="textSecondary">
-            <SVG6/><SVG5/>
+            <SVG6/><SVGlblink/><SVG5/>
             2020
           </Typography>
         </TimelineOppositeContent>
@@ -169,6 +175,7 @@ June 2020-Today</Typography>
       <TimelineOppositeContent>
           <Typography variant="outlined"color="textSecondary">
             <SVG13/>
+            <SVGexplolink/>
             <SVG11/>
             2018
           </Typography>

@@ -9,7 +9,8 @@ import kontrolrdarrow from '../assets/images/kontrol-rd-arrow.svg'
 import kontrolrd from '../assets/images/arrow.svg'
 import LanguageSharpIcon from '@material-ui/icons/LanguageSharp';
 import Button from '@material-ui/core/Button';
-
+import arduino from '../assets/images/arduino.svg'
+import android from '../assets/images/android.svg'
 const SvgStyled = styled.div`
   overflow: hidden;
   .section {
@@ -75,7 +76,8 @@ const List = () => (
    startIcon={<LanguageSharpIcon color="primary" fontSize="large"  />}
    href="https://www.instagram.com/p/Bz-oDUTHrob/?utm_source=ig_web_copy_link"
 >
-  
+<img src={arduino} style={{width:25, height:25,margin:0, padding:0}}/>
+<img src={android} style={{width:25, height:25,margin:0, padding:0}}/>
 </Button>
              
                 

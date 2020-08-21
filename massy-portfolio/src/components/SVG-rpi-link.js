@@ -9,6 +9,8 @@ import kontrolrdarrow from '../assets/images/kontrol-rd-arrow.svg'
 import kontrolrd from '../assets/images/arrow.svg'
 import LanguageSharpIcon from '@material-ui/icons/LanguageSharp';
 import Button from '@material-ui/core/Button';
+import rpi from '../assets/images/rpi.svg';
+import python from '../assets/images/python.svg'
 
 const SvgStyled = styled.div`
   overflow: hidden;
@@ -72,12 +74,14 @@ const List = () => (
    variant="link"
    color="default"
   
-   startIcon={<LanguageSharpIcon color="primary" fontSize="large"  />}
+   startIcon={<LanguageSharpIcon color="primary" fontSize="very large"  />}
    href="https://news.sap.com/2019/09/nyfw-sap-cirque-du-soleil-hi-tech-experience/"
 >
-  
+
+<img src={rpi} style={{width:25, height:25,margin:0, padding:0}}/>
+<img src={python} style={{width:25, height:25,margin:0, padding:0}}/>
 </Button>
-             
+           
                 
               </div>
             </Tween>    
