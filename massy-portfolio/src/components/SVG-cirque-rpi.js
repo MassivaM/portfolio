@@ -1,5 +1,5 @@
 // @flow
-import React from 'react';
+import React, {Component} from 'react';
 import styled from 'styled-components';
 import { Controller, Scene } from 'react-scrollmagic';
 import { Tween, Timeline } from 'react-gsap';
@@ -8,7 +8,27 @@ import { ReactSVG } from 'react-svg'
 import kontrolrdarrow from '../assets/images/kontrol-rd-arrow.svg'
 import kontrolrd from '../assets/images/cirquerpi.svg'
 
-const SvgStyled = styled.div`
+export default class SVG extends Component{
+
+  constructor(props) {
+    super(props);
+    this.state = { width: 0, height: 0 };
+    this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
+  }
+  
+  componentDidMount() {
+    this.updateWindowDimensions();
+    window.addEventListener('resize', this.updateWindowDimensions);
+  }
+  
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.updateWindowDimensions);
+  }
+  
+  updateWindowDimensions() {
+    this.setState({ width: window.innerWidth, height: window.innerHeight });
+  }
+SvgStyled = styled.div`
   overflow: hidden;
   .section {
     height: 70vh;
@@ -27,13 +47,13 @@ const SvgStyled = styled.div`
     overflow: visible;
   }
 `;
-
-const List = () => (
+render(){
+  return (
   
   
     <div>
     <Controller>
-          <Scene duration={1500} triggerElement='first-container' offset={1200}>
+          <Scene duration={0.75*this.state.width} triggerElement='first-container' offset={0.85*this.state.width}   >
           {(progress) => (
             <Tween
            
@@ -78,4 +98,4 @@ const List = () => (
 </div>
 );
 
-export default List;
+          }}

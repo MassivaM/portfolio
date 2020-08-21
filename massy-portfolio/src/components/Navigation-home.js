@@ -174,11 +174,11 @@ class ResAppBar extends Component{
             <div className={classes.buttons}>
             
             
-                <Button className={classes.button}>
+                <Button className={classes.button} >
                   
 
-                  <Link to='./contact' className={classes.links}>Contact</Link>
-                              
+                 
+                <a  className={classes.links} href={`mailto:${'mahamlimassy@gmail.com'}`}>Contact</a>          
 
                         
             </Button>

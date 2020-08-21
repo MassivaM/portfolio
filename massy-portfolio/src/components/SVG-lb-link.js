@@ -1,5 +1,5 @@
 // @flow
-import React from 'react';
+import React, {Component} from 'react';
 import styled from 'styled-components';
 import { Controller, Scene } from 'react-scrollmagic';
 import { Tween, Timeline } from 'react-gsap';
@@ -11,8 +11,27 @@ import LanguageSharpIcon from '@material-ui/icons/LanguageSharp';
 import Button from '@material-ui/core/Button';
 import angular from '../assets/images/angular.svg';
 import ts from '../assets/images/typescript.svg';
+export default class SVG extends Component{
 
-const SvgStyled = styled.div`
+  constructor(props) {
+    super(props);
+    this.state = { width: 0, height: 0 };
+    this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
+  }
+  
+  componentDidMount() {
+    this.updateWindowDimensions();
+    window.addEventListener('resize', this.updateWindowDimensions);
+  }
+  
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.updateWindowDimensions);
+  }
+  
+  updateWindowDimensions() {
+    this.setState({ width: window.innerWidth, height: window.innerHeight });
+  }
+SvgStyled = styled.div`
   overflow: hidden;
   .section {
     height: 70vh;
@@ -31,13 +50,14 @@ const SvgStyled = styled.div`
     overflow: visible;
   }
 `;
-
-const List = () => (
+render(){
+  return (
   
   
     <div>
     <Controller>
-          <Scene duration={300} triggerElement='first-container' offset={1000}>
+          <Scene duration={0.2*this.state.width} triggerElement='first-container' offset={0.75*this.state.width}   >
+
           {(progress) => (
             <Tween
            
@@ -86,4 +106,4 @@ const List = () => (
 </div>
 );
 
-export default List;
+          }}

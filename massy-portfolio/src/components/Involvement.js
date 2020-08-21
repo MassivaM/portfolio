@@ -24,7 +24,7 @@ const ListStyled = styled.div`
     margin:0;
    
     & li {
-      font-size: 20px;
+      font-size: 1vw;
       font-family: 'Riccione-DemiBold';
       padding: 10px;
       text-decoration : none;
