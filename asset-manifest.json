@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.8414bdec.chunk.css",
-    "main.js": "/portfolio/static/js/main.59da5830.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.59da5830.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.f639a041.chunk.css",
+    "main.js": "/portfolio/static/js/main.f096d3d1.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.f096d3d1.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.daeeff96.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.daeeff96.js.map",
     "static/css/2.4707e12a.chunk.css": "/portfolio/static/css/2.4707e12a.chunk.css",
-    "static/js/2.19c24481.chunk.js": "/portfolio/static/js/2.19c24481.chunk.js",
-    "static/js/2.19c24481.chunk.js.map": "/portfolio/static/js/2.19c24481.chunk.js.map",
+    "static/js/2.5c59c7d8.chunk.js": "/portfolio/static/js/2.5c59c7d8.chunk.js",
+    "static/js/2.5c59c7d8.chunk.js.map": "/portfolio/static/js/2.5c59c7d8.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.a8c9d5d8c33be8cc1ae82d823b9bf801.js": "/portfolio/precache-manifest.a8c9d5d8c33be8cc1ae82d823b9bf801.js",
+    "precache-manifest.e86f4d79782be0eaf5e209e3cf63fea8.js": "/portfolio/precache-manifest.e86f4d79782be0eaf5e209e3cf63fea8.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.4707e12a.chunk.css.map": "/portfolio/static/css/2.4707e12a.chunk.css.map",
-    "static/css/main.8414bdec.chunk.css.map": "/portfolio/static/css/main.8414bdec.chunk.css.map",
-    "static/js/2.19c24481.chunk.js.LICENSE.txt": "/portfolio/static/js/2.19c24481.chunk.js.LICENSE.txt",
+    "static/css/main.f639a041.chunk.css.map": "/portfolio/static/css/main.f639a041.chunk.css.map",
+    "static/js/2.5c59c7d8.chunk.js.LICENSE.txt": "/portfolio/static/js/2.5c59c7d8.chunk.js.LICENSE.txt",
     "static/media/Frosh.png": "/portfolio/static/media/Frosh.136da056.png",
     "static/media/ae.svg": "/portfolio/static/media/ae.f3b5aa53.svg",
     "static/media/ai.png": "/portfolio/static/media/ai.d648ed27.png",
@@ -37,6 +37,8 @@
     "static/media/facebook.svg": "/portfolio/static/media/facebook.a752ce5d.svg",
     "static/media/film.png": "/portfolio/static/media/film.f9d12ac0.png",
     "static/media/firebase.svg": "/portfolio/static/media/firebase.18d17cc2.svg",
+    "static/media/font.woff": "/portfolio/static/media/font.5fb5e0a8.woff",
+    "static/media/font.woff2": "/portfolio/static/media/font.730cf32d.woff2",
     "static/media/github.svg": "/portfolio/static/media/github.1bb02710.svg",
     "static/media/github2.svg": "/portfolio/static/media/github2.7697c1bf.svg",
     "static/media/graphql.svg": "/portfolio/static/media/graphql.bac09042.svg",
@@ -76,6 +78,7 @@
     "static/media/rpi2.svg": "/portfolio/static/media/rpi2.cf8963ba.svg",
     "static/media/ruby.svg": "/portfolio/static/media/ruby.4b4da545.svg",
     "static/media/ruby2.svg": "/portfolio/static/media/ruby2.3d4c856e.svg",
+    "static/media/scrubby.otf": "/portfolio/static/media/scrubby.0bcf3390.otf",
     "static/media/swift.svg": "/portfolio/static/media/swift.a8f87f8c.svg",
     "static/media/thankloop.png": "/portfolio/static/media/thankloop.ced19486.png",
     "static/media/typescript.svg": "/portfolio/static/media/typescript.f5f7c214.svg",
@@ -86,8 +89,8 @@
   "entrypoints": [
     "static/js/runtime-main.daeeff96.js",
     "static/css/2.4707e12a.chunk.css",
-    "static/js/2.19c24481.chunk.js",
-    "static/css/main.8414bdec.chunk.css",
-    "static/js/main.59da5830.chunk.js"
+    "static/js/2.5c59c7d8.chunk.js",
+    "static/css/main.f639a041.chunk.css",
+    "static/js/main.f096d3d1.chunk.js"
   ]
 }

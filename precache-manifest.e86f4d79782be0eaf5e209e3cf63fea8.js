@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "280f0c103c42e5d90c06bb5e1f6057df",
+    "revision": "484bc8ea3a9a26a52b214142d989edd8",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "02b8eec524d1948991d6",
+    "revision": "74d0aa73a7b7b1816b4c",
     "url": "/portfolio/static/css/2.4707e12a.chunk.css"
   },
   {
-    "revision": "37dc459ad6bb8208a9df",
-    "url": "/portfolio/static/css/main.8414bdec.chunk.css"
+    "revision": "2610f77f8dee4914983d",
+    "url": "/portfolio/static/css/main.f639a041.chunk.css"
   },
   {
-    "revision": "02b8eec524d1948991d6",
-    "url": "/portfolio/static/js/2.19c24481.chunk.js"
+    "revision": "74d0aa73a7b7b1816b4c",
+    "url": "/portfolio/static/js/2.5c59c7d8.chunk.js"
   },
   {
     "revision": "342861514f17feb06df3c7c9d20058f2",
-    "url": "/portfolio/static/js/2.19c24481.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.5c59c7d8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "37dc459ad6bb8208a9df",
-    "url": "/portfolio/static/js/main.59da5830.chunk.js"
+    "revision": "2610f77f8dee4914983d",
+    "url": "/portfolio/static/js/main.f096d3d1.chunk.js"
   },
   {
     "revision": "32dc5ce582a3463f649b",
@@ -118,6 +118,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "18d17cc2d8be3ca830ad1a886f748f2e",
     "url": "/portfolio/static/media/firebase.18d17cc2.svg"
+  },
+  {
+    "revision": "5fb5e0a80b0cf853ef2c947c710b87c8",
+    "url": "/portfolio/static/media/font.5fb5e0a8.woff"
+  },
+  {
+    "revision": "730cf32dae946862f0fecc441b2f8300",
+    "url": "/portfolio/static/media/font.730cf32d.woff2"
   },
   {
     "revision": "1bb027109345a90a9eab1e929d8669c2",
@@ -274,6 +282,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3d4c856eef1ba31f8c6253fe93f0bbe9",
     "url": "/portfolio/static/media/ruby2.3d4c856e.svg"
+  },
+  {
+    "revision": "0bcf339013f1179495a0b57ac761a5cb",
+    "url": "/portfolio/static/media/scrubby.0bcf3390.otf"
   },
   {
     "revision": "a8f87f8c8f7df5912eeb590481d605d7",
