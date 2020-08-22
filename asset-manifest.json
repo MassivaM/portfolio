@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.f639a041.chunk.css",
-    "main.js": "/portfolio/static/js/main.f096d3d1.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.f096d3d1.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.c8e61bc5.chunk.css",
+    "main.js": "/portfolio/static/js/main.9509d3d6.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.9509d3d6.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.daeeff96.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.daeeff96.js.map",
     "static/css/2.4707e12a.chunk.css": "/portfolio/static/css/2.4707e12a.chunk.css",
-    "static/js/2.5c59c7d8.chunk.js": "/portfolio/static/js/2.5c59c7d8.chunk.js",
-    "static/js/2.5c59c7d8.chunk.js.map": "/portfolio/static/js/2.5c59c7d8.chunk.js.map",
+    "static/js/2.52416b5f.chunk.js": "/portfolio/static/js/2.52416b5f.chunk.js",
+    "static/js/2.52416b5f.chunk.js.map": "/portfolio/static/js/2.52416b5f.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.e86f4d79782be0eaf5e209e3cf63fea8.js": "/portfolio/precache-manifest.e86f4d79782be0eaf5e209e3cf63fea8.js",
+    "precache-manifest.c356cfabeee4dcd8397615a2a422eb72.js": "/portfolio/precache-manifest.c356cfabeee4dcd8397615a2a422eb72.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.4707e12a.chunk.css.map": "/portfolio/static/css/2.4707e12a.chunk.css.map",
-    "static/css/main.f639a041.chunk.css.map": "/portfolio/static/css/main.f639a041.chunk.css.map",
-    "static/js/2.5c59c7d8.chunk.js.LICENSE.txt": "/portfolio/static/js/2.5c59c7d8.chunk.js.LICENSE.txt",
+    "static/css/main.c8e61bc5.chunk.css.map": "/portfolio/static/css/main.c8e61bc5.chunk.css.map",
+    "static/js/2.52416b5f.chunk.js.LICENSE.txt": "/portfolio/static/js/2.52416b5f.chunk.js.LICENSE.txt",
     "static/media/Frosh.png": "/portfolio/static/media/Frosh.136da056.png",
+    "static/media/Riccione-DemiBold.woff": "/portfolio/static/media/Riccione-DemiBold.d08fc4dd.woff",
+    "static/media/Riccione-DemiBold.woff2": "/portfolio/static/media/Riccione-DemiBold.d222dbb7.woff2",
     "static/media/ae.svg": "/portfolio/static/media/ae.f3b5aa53.svg",
     "static/media/ai.png": "/portfolio/static/media/ai.d648ed27.png",
     "static/media/android.svg": "/portfolio/static/media/android.ba2c0245.svg",
@@ -89,8 +91,8 @@
   "entrypoints": [
     "static/js/runtime-main.daeeff96.js",
     "static/css/2.4707e12a.chunk.css",
-    "static/js/2.5c59c7d8.chunk.js",
-    "static/css/main.f639a041.chunk.css",
-    "static/js/main.f096d3d1.chunk.js"
+    "static/js/2.52416b5f.chunk.js",
+    "static/css/main.c8e61bc5.chunk.css",
+    "static/js/main.9509d3d6.chunk.js"
   ]
 }
