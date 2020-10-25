@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "113fbd470d24e432d304002796252b8a",
+    "revision": "79a87c482f7591146158757a7b10d140",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "1e5da057f71c461c8e06",
+    "revision": "09392075dc84f584fd6a",
     "url": "/portfolio/static/css/2.4707e12a.chunk.css"
   },
   {
-    "revision": "ad089c9a2cc7f0bdce61",
+    "revision": "e158caaf9dc40e2531eb",
     "url": "/portfolio/static/css/main.2810ec4f.chunk.css"
   },
   {
-    "revision": "1e5da057f71c461c8e06",
-    "url": "/portfolio/static/js/2.1135613c.chunk.js"
+    "revision": "09392075dc84f584fd6a",
+    "url": "/portfolio/static/js/2.98668594.chunk.js"
   },
   {
     "revision": "342861514f17feb06df3c7c9d20058f2",
-    "url": "/portfolio/static/js/2.1135613c.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.98668594.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ad089c9a2cc7f0bdce61",
-    "url": "/portfolio/static/js/main.2869c5d1.chunk.js"
+    "revision": "e158caaf9dc40e2531eb",
+    "url": "/portfolio/static/js/main.77c9b3bb.chunk.js"
   },
   {
     "revision": "32dc5ce582a3463f649b",
@@ -196,14 +196,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/kontrol-r&d-arroe.7c6ff37f.svg"
   },
   {
-    "revision": "edec620d2f54e728976e981b94a1a985",
-    "url": "/portfolio/static/media/kontrol-rd-2-01.edec620d.svg"
-  },
-  {
-    "revision": "4ea269e35c1550c8502e7d3d7b40c8fb",
-    "url": "/portfolio/static/media/kontrol-rd-2-02.4ea269e3.svg"
-  },
-  {
     "revision": "05ff214ad48b2d78fd9c52c779b05159",
     "url": "/portfolio/static/media/kontrol-rd-arrow.05ff214a.svg"
   },
@@ -280,8 +272,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/react2.24117c5a.svg"
   },
   {
-    "revision": "9ba3ee369963c13d81dddf8e18c14c95",
-    "url": "/portfolio/static/media/resume.9ba3ee36.pdf"
+    "revision": "a03603830ca7a0a9a6a6dc07ef1a619b",
+    "url": "/portfolio/static/media/resume.a0360383.pdf"
   },
   {
     "revision": "671c53b29ecfeb88c357d2e2a554b885",

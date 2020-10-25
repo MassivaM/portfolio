@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.2810ec4f.chunk.css",
-    "main.js": "/portfolio/static/js/main.2869c5d1.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.2869c5d1.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.77c9b3bb.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.77c9b3bb.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.daeeff96.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.daeeff96.js.map",
     "static/css/2.4707e12a.chunk.css": "/portfolio/static/css/2.4707e12a.chunk.css",
-    "static/js/2.1135613c.chunk.js": "/portfolio/static/js/2.1135613c.chunk.js",
-    "static/js/2.1135613c.chunk.js.map": "/portfolio/static/js/2.1135613c.chunk.js.map",
+    "static/js/2.98668594.chunk.js": "/portfolio/static/js/2.98668594.chunk.js",
+    "static/js/2.98668594.chunk.js.map": "/portfolio/static/js/2.98668594.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.7c822688b815d0b044eb073395f244c5.js": "/portfolio/precache-manifest.7c822688b815d0b044eb073395f244c5.js",
+    "precache-manifest.62f4b44b19ab79998d92e4c70403c7e9.js": "/portfolio/precache-manifest.62f4b44b19ab79998d92e4c70403c7e9.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.4707e12a.chunk.css.map": "/portfolio/static/css/2.4707e12a.chunk.css.map",
     "static/css/main.2810ec4f.chunk.css.map": "/portfolio/static/css/main.2810ec4f.chunk.css.map",
-    "static/js/2.1135613c.chunk.js.LICENSE.txt": "/portfolio/static/js/2.1135613c.chunk.js.LICENSE.txt",
+    "static/js/2.98668594.chunk.js.LICENSE.txt": "/portfolio/static/js/2.98668594.chunk.js.LICENSE.txt",
     "static/media/Frosh.png": "/portfolio/static/media/Frosh.409d6fb2.png",
     "static/media/MASSY.JPG": "/portfolio/static/media/MASSY.ca2f9fb4.JPG",
     "static/media/Riccione-DemiBold.woff": "/portfolio/static/media/Riccione-DemiBold.d08fc4dd.woff",
@@ -56,8 +56,6 @@
     "static/media/jec.svg": "/portfolio/static/media/jec.ada25dfd.svg",
     "static/media/kontrol-bug.svg": "/portfolio/static/media/kontrol-bug.19e929a5.svg",
     "static/media/kontrol-r&d-arroe.svg": "/portfolio/static/media/kontrol-r&d-arroe.7c6ff37f.svg",
-    "static/media/kontrol-rd-2-01.svg": "/portfolio/static/media/kontrol-rd-2-01.edec620d.svg",
-    "static/media/kontrol-rd-2-02.svg": "/portfolio/static/media/kontrol-rd-2-02.4ea269e3.svg",
     "static/media/kontrol-rd-arrow.svg": "/portfolio/static/media/kontrol-rd-arrow.05ff214a.svg",
     "static/media/kontrol-rd.svg": "/portfolio/static/media/kontrol-rd.472bb070.svg",
     "static/media/kontrol.svg": "/portfolio/static/media/kontrol.e484aaa4.svg",
@@ -77,7 +75,7 @@
     "static/media/rd.svg": "/portfolio/static/media/rd.44d2e183.svg",
     "static/media/react.svg": "/portfolio/static/media/react.617be9f5.svg",
     "static/media/react2.svg": "/portfolio/static/media/react2.24117c5a.svg",
-    "static/media/resume.pdf": "/portfolio/static/media/resume.9ba3ee36.pdf",
+    "static/media/resume.pdf": "/portfolio/static/media/resume.a0360383.pdf",
     "static/media/rpi.svg": "/portfolio/static/media/rpi.671c53b2.svg",
     "static/media/rpi2.svg": "/portfolio/static/media/rpi2.cf8963ba.svg",
     "static/media/ruby.svg": "/portfolio/static/media/ruby.4b4da545.svg",
@@ -93,8 +91,8 @@
   "entrypoints": [
     "static/js/runtime-main.daeeff96.js",
     "static/css/2.4707e12a.chunk.css",
-    "static/js/2.1135613c.chunk.js",
+    "static/js/2.98668594.chunk.js",
     "static/css/main.2810ec4f.chunk.css",
-    "static/js/main.2869c5d1.chunk.js"
+    "static/js/main.77c9b3bb.chunk.js"
   ]
 }
